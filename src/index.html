@@ -9,7 +9,9 @@
 </head>
 
 <body class="flex justify-end">
+
     <!-- Section: All Students Data Table -->
+     
     <section class="bg-white min-h-screen w-10/12 p-6 flex flex-col gap-5">
         <!-- Breadcrumb -->
         <div>
@@ -21,7 +23,7 @@
 
         <!-- Section Title -->
         <div class="bg-white shadow p-6">
-            <div class="flex  items-center ">
+            <div class="flex justify-between items-center ">
                 <h2 class="text-lg font-semibold text-gray-700 mb-4">All Students Data</h2>
                 <a class="text-4xl mb-5 text-[#bcbcbc]" href="">...</a>
             </div>
@@ -44,44 +46,45 @@
                 <table class="w-full flex flex-col  max-w-full table-auto text-sm">
                     <thead class="flex flex-row items-center max-w-full py-2 bg-white border border-[#00000020] text-left">
                         <tr class="">
-                            <tr class="w-20 gap-4 flex p-3.5">
+                            <tr class="gap-4 flex items-center justify-center p-3.5">
                                <th class=""><input type="checkbox"></th>
                                <th class="">Roll</th>
                             </tr>
                             
-                            <tr class="flex   flex-row p-3.5">
+                            <tr class="flex pr-2 flex-row p-3.5">
                                <th class="">Photo</th>
                             </tr>
    
-                            <tr class="flex   flex-row p-3.5">
+                            <tr class="flex pr-8 flex-row p-3.5">
                                <th class="">Name</th>
                             </tr>
-                            <tr class="flex   flex-row p-3.5">
+                            <tr class="flex  flex-row p-3.5">
                               <th class="">Gender</th>
                             </tr>
-                            <tr class="flex   flex-row p-3.5">
+                            <tr class="flex flex-row p-3.5">
                                <th class="">Class</th>
                             </tr>
-                            <tr class="flex   flex-row p-3.5">
+                            <tr class="flex flex-row p-3.5">
                                <th class="">Section</th>
                             </tr>
-                            <tr class="flex   flex-row p-3.5">
-                               <th class="">Prents</th>
+                            <tr class="flex flex-row p-3.5">
+                               <th class="pr-10">Parents</th>
                             </tr>
-                            <tr class="flex w-32 flex-row p-3.5">
+                            <tr class="flex pr-14 flex-row p-3.5">
                                <th class="">Address</th>
                             </tr>
-                            <tr class="flex   flex-row w-[133px]">
+                            <tr class="flex flex-row p-3.5">
                                <th class="">Date of Birth</th>
                             </tr>
-                            <tr class="flex   flex-row w-[133px]">
+                            <tr class="flex pr-20 flex-row p-3.5">
                                <th class="">Phone</th>
                             </tr>
-                             <tr class="flex flex-row w-[133px]">
-                               <th class="">Email</th>
+                             <tr class="flex text-center justify-center items-center pr flex-row p-3.5">
+                               <th class="pr-10">Email</th>
+                               
                             </tr>
                             <th>
-                              <a class="text-4xl text-center text-[#bcbcbc]" href="">...</a>
+                              
                             </th>
                         </tr>
                     </thead>
@@ -90,384 +93,280 @@
                     <tbody class="border border-[#e1e1e1] bg-[#f9f9f9]">
 
                         <!-- Student Row Example (repeat for more rows) -->
-                          <tr class="border-b flex justify-between flex-row gap-4 px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
+                          <tr class="border-b flex items-center flex-row px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
 
-                            <td class="flex items-center gap-2">
+                            <td class="flex pr-4 items-center gap-2">
                                 <input type="checkbox">
                                 <h3>#00281</h3>
                             </td>
-                            <td class="">
+                            <td class="pr-7">
                                 <img src="https://i.pravatar.cc/40" alt="Photo" class="rounded-full w-8 h-8">
                             </td>
-                            <td class=" ">Mark Willy</td>
-                            <td class="">Male</td>
-                            <td class="">2</td>
-                            <td class="">A</td>
-                            <td class="">Jack Sparrow</td>
-                            <td class="">TA-107 Newyork</td>
-                            <td class="">02/05/2001</td>
-                            <td class="">+123 9988568</td>
-                            <td class="">kazifahim93@gmail.com</td>
-                            <td class=" text-xl">...</td>
+                            <td class="pr-6">Mark Willy</td>
+                            <td class="pr-12">Male</td>
+                            <td class="pr-14">2</td>
+                            <td class="pr-14">A</td>
+                            <td class="pr-9">Jack Sparrow</td>
+                            <td class="pr-6">TA-107 Newyork</td>
+                            <td class="pr-10">02/05/2001</td>
+                            <td class="pr-12">+123 9988568</td>
+                            <td class="pr-4">kazifahim93@gmail.com</td>
+                            <td class=" text-lg text-center">...</td>
                           </tr>
 
-                          <tr class="border-b flex justify-between flex-row gap-4 px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
+                          <tr class="border-b flex items-center flex-row px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
 
-                            <td class="flex items-center gap-2">
+                            <td class="flex pr-4 items-center gap-2">
                                 <input type="checkbox">
                                 <h3>#00281</h3>
                             </td>
-                            <td class="">
+                            <td class="pr-7">
                                 <img src="https://i.pravatar.cc/40" alt="Photo" class="rounded-full w-8 h-8">
                             </td>
-                            <td class=" ">Mark Willy</td>
-                            <td class="">Male</td>
-                            <td class="">2</td>
-                            <td class="">A</td>
-                            <td class="">Jack Sparrow</td>
-                            <td class="">TA-107 Newyork</td>
-                            <td class="">02/05/2001</td>
-                            <td class="">+123 9988568</td>
-                            <td class="">kazifahim93@gmail.com</td>
-                            <td class=" text-xl">...</td>
+                            <td class="pr-6">Mark Willy</td>
+                            <td class="pr-12">Male</td>
+                            <td class="pr-14">2</td>
+                            <td class="pr-14">A</td>
+                            <td class="pr-9">Jack Sparrow</td>
+                            <td class="pr-6">TA-107 Newyork</td>
+                            <td class="pr-10">02/05/2001</td>
+                            <td class="pr-12">+123 9988568</td>
+                            <td class="pr-4">kazifahim93@gmail.com</td>
+                            <td class=" text-lg text-center">...</td>
                           </tr>
-                          <tr class="border-b flex justify-between flex-row gap-4 px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
 
-                            <td class="flex items-center gap-2">
+                          <tr class="border-b flex items-center flex-row px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
+
+                            <td class="flex pr-4 items-center gap-2">
                                 <input type="checkbox">
                                 <h3>#00281</h3>
                             </td>
-                            <td class="">
+                            <td class="pr-7">
                                 <img src="https://i.pravatar.cc/40" alt="Photo" class="rounded-full w-8 h-8">
                             </td>
-                            <td class=" ">Mark Willy</td>
-                            <td class="">Male</td>
-                            <td class="">2</td>
-                            <td class="">A</td>
-                            <td class="">Jack Sparrow</td>
-                            <td class="">TA-107 Newyork</td>
-                            <td class="">02/05/2001</td>
-                            <td class="">+123 9988568</td>
-                            <td class="">kazifahim93@gmail.com</td>
-                            <td class=" text-xl">...</td>
+                            <td class="pr-6">Mark Willy</td>
+                            <td class="pr-12">Male</td>
+                            <td class="pr-14">2</td>
+                            <td class="pr-14">A</td>
+                            <td class="pr-9">Jack Sparrow</td>
+                            <td class="pr-6">TA-107 Newyork</td>
+                            <td class="pr-10">02/05/2001</td>
+                            <td class="pr-12">+123 9988568</td>
+                            <td class="pr-4">kazifahim93@gmail.com</td>
+                            <td class=" text-lg text-center">...</td>
                           </tr>
-                          <tr class="border-b flex justify-between flex-row gap-4 px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
 
-                            <td class="flex items-center gap-2">
+                          <tr class="border-b flex items-center flex-row px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
+
+                            <td class="flex pr-4 items-center gap-2">
                                 <input type="checkbox">
                                 <h3>#00281</h3>
                             </td>
-                            <td class="">
+                            <td class="pr-7">
                                 <img src="https://i.pravatar.cc/40" alt="Photo" class="rounded-full w-8 h-8">
                             </td>
-                            <td class=" ">Mark Willy</td>
-                            <td class="">Male</td>
-                            <td class="">2</td>
-                            <td class="">A</td>
-                            <td class="">Jack Sparrow</td>
-                            <td class="">TA-107 Newyork</td>
-                            <td class="">02/05/2001</td>
-                            <td class="">+123 9988568</td>
-                            <td class="">kazifahim93@gmail.com</td>
-                            <td class=" text-xl">...</td>
+                            <td class="pr-6">Mark Willy</td>
+                            <td class="pr-12">Male</td>
+                            <td class="pr-14">2</td>
+                            <td class="pr-14">A</td>
+                            <td class="pr-9">Jack Sparrow</td>
+                            <td class="pr-6">TA-107 Newyork</td>
+                            <td class="pr-10">02/05/2001</td>
+                            <td class="pr-12">+123 9988568</td>
+                            <td class="pr-4">kazifahim93@gmail.com</td>
+                            <td class=" text-lg text-center">...</td>
                           </tr>
-                          <tr class="border-b flex justify-between flex-row gap-4 px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
 
-                            <td class="flex items-center gap-2">
+                          <tr class="border-b flex items-center flex-row px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
+
+                            <td class="flex pr-4 items-center gap-2">
                                 <input type="checkbox">
                                 <h3>#00281</h3>
                             </td>
-                            <td class="">
+                            <td class="pr-7">
                                 <img src="https://i.pravatar.cc/40" alt="Photo" class="rounded-full w-8 h-8">
                             </td>
-                            <td class=" ">Mark Willy</td>
-                            <td class="">Male</td>
-                            <td class="">2</td>
-                            <td class="">A</td>
-                            <td class="">Jack Sparrow</td>
-                            <td class="">TA-107 Newyork</td>
-                            <td class="">02/05/2001</td>
-                            <td class="">+123 9988568</td>
-                            <td class="">kazifahim93@gmail.com</td>
-                            <td class=" text-xl">...</td>
+                            <td class="pr-6">Mark Willy</td>
+                            <td class="pr-12">Male</td>
+                            <td class="pr-14">2</td>
+                            <td class="pr-14">A</td>
+                            <td class="pr-9">Jack Sparrow</td>
+                            <td class="pr-6">TA-107 Newyork</td>
+                            <td class="pr-10">02/05/2001</td>
+                            <td class="pr-12">+123 9988568</td>
+                            <td class="pr-4">kazifahim93@gmail.com</td>
+                            <td class=" text-lg text-center">...</td>
                           </tr>
-                          <tr class="border-b flex justify-between flex-row gap-4 px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
 
-                            <td class="flex items-center gap-2">
+                          <tr class="border-b flex items-center flex-row px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
+
+                            <td class="flex pr-4 items-center gap-2">
                                 <input type="checkbox">
                                 <h3>#00281</h3>
                             </td>
-                            <td class="">
+                            <td class="pr-7">
                                 <img src="https://i.pravatar.cc/40" alt="Photo" class="rounded-full w-8 h-8">
                             </td>
-                            <td class=" ">Mark Willy</td>
-                            <td class="">Male</td>
-                            <td class="">2</td>
-                            <td class="">A</td>
-                            <td class="">Jack Sparrow</td>
-                            <td class="">TA-107 Newyork</td>
-                            <td class="">02/05/2001</td>
-                            <td class="">+123 9988568</td>
-                            <td class="">kazifahim93@gmail.com</td>
-                            <td class=" text-xl">...</td>
-                          </tr><tr class="border-b flex justify-between flex-row gap-4 px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
-
-                            <td class="flex items-center gap-2">
-                                <input type="checkbox">
-                                <h3>#00281</h3>
-                            </td>
-                            <td class="">
-                                <img src="https://i.pravatar.cc/40" alt="Photo" class="rounded-full w-8 h-8">
-                            </td>
-                            <td class=" ">Mark Willy</td>
-                            <td class="">Male</td>
-                            <td class="">2</td>
-                            <td class="">A</td>
-                            <td class="">Jack Sparrow</td>
-                            <td class="">TA-107 Newyork</td>
-                            <td class="">02/05/2001</td>
-                            <td class="">+123 9988568</td>
-                            <td class="">kazifahim93@gmail.com</td>
-                            <td class=" text-xl">...</td>
+                            <td class="pr-6">Mark Willy</td>
+                            <td class="pr-12">Male</td>
+                            <td class="pr-14">2</td>
+                            <td class="pr-14">A</td>
+                            <td class="pr-9">Jack Sparrow</td>
+                            <td class="pr-6">TA-107 Newyork</td>
+                            <td class="pr-10">02/05/2001</td>
+                            <td class="pr-12">+123 9988568</td>
+                            <td class="pr-4">kazifahim93@gmail.com</td>
+                            <td class=" text-lg text-center">...</td>
                           </tr>
-                          <tr class="border-b flex justify-between flex-row gap-4 px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
 
-                            <td class="flex items-center gap-2">
+                          <tr class="border-b flex items-center flex-row px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
+
+                            <td class="flex pr-4 items-center gap-2">
                                 <input type="checkbox">
                                 <h3>#00281</h3>
                             </td>
-                            <td class="">
+                            <td class="pr-7">
                                 <img src="https://i.pravatar.cc/40" alt="Photo" class="rounded-full w-8 h-8">
                             </td>
-                            <td class=" ">Mark Willy</td>
-                            <td class="">Male</td>
-                            <td class="">2</td>
-                            <td class="">A</td>
-                            <td class="">Jack Sparrow</td>
-                            <td class="">TA-107 Newyork</td>
-                            <td class="">02/05/2001</td>
-                            <td class="">+123 9988568</td>
-                            <td class="">kazifahim93@gmail.com</td>
-                            <td class=" text-xl">...</td>
+                            <td class="pr-6">Mark Willy</td>
+                            <td class="pr-12">Male</td>
+                            <td class="pr-14">2</td>
+                            <td class="pr-14">A</td>
+                            <td class="pr-9">Jack Sparrow</td>
+                            <td class="pr-6">TA-107 Newyork</td>
+                            <td class="pr-10">02/05/2001</td>
+                            <td class="pr-12">+123 9988568</td>
+                            <td class="pr-4">kazifahim93@gmail.com</td>
+                            <td class=" text-lg text-center">...</td>
                           </tr>
-                          <tr class="border-b flex justify-between flex-row gap-4 px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
 
-                            <td class="flex items-center gap-2">
+                          <tr class="border-b flex items-center flex-row px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
+
+                            <td class="flex pr-4 items-center gap-2">
                                 <input type="checkbox">
                                 <h3>#00281</h3>
                             </td>
-                            <td class="">
+                            <td class="pr-7">
                                 <img src="https://i.pravatar.cc/40" alt="Photo" class="rounded-full w-8 h-8">
                             </td>
-                            <td class=" ">Mark Willy</td>
-                            <td class="">Male</td>
-                            <td class="">2</td>
-                            <td class="">A</td>
-                            <td class="">Jack Sparrow</td>
-                            <td class="">TA-107 Newyork</td>
-                            <td class="">02/05/2001</td>
-                            <td class="">+123 9988568</td>
-                            <td class="">kazifahim93@gmail.com</td>
-                            <td class=" text-xl">...</td>
-                          </tr><tr class="border-b flex justify-between flex-row gap-4 px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
-
-                            <td class="flex items-center gap-2">
-                                <input type="checkbox">
-                                <h3>#00281</h3>
-                            </td>
-                            <td class="">
-                                <img src="https://i.pravatar.cc/40" alt="Photo" class="rounded-full w-8 h-8">
-                            </td>
-                            <td class=" ">Mark Willy</td>
-                            <td class="">Male</td>
-                            <td class="">2</td>
-                            <td class="">A</td>
-                            <td class="">Jack Sparrow</td>
-                            <td class="">TA-107 Newyork</td>
-                            <td class="">02/05/2001</td>
-                            <td class="">+123 9988568</td>
-                            <td class="">kazifahim93@gmail.com</td>
-                            <td class=" text-xl">...</td>
+                            <td class="pr-6">Mark Willy</td>
+                            <td class="pr-12">Male</td>
+                            <td class="pr-14">2</td>
+                            <td class="pr-14">A</td>
+                            <td class="pr-9">Jack Sparrow</td>
+                            <td class="pr-6">TA-107 Newyork</td>
+                            <td class="pr-10">02/05/2001</td>
+                            <td class="pr-12">+123 9988568</td>
+                            <td class="pr-4">kazifahim93@gmail.com</td>
+                            <td class=" text-lg text-center">...</td>
                           </tr>
-                          <tr class="border-b flex justify-between flex-row gap-4 px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
 
-                            <td class="flex items-center gap-2">
+                          <tr class="border-b flex items-center flex-row px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
+
+                            <td class="flex pr-4 items-center gap-2">
                                 <input type="checkbox">
                                 <h3>#00281</h3>
                             </td>
-                            <td class="">
+                            <td class="pr-7">
                                 <img src="https://i.pravatar.cc/40" alt="Photo" class="rounded-full w-8 h-8">
                             </td>
-                            <td class=" ">Mark Willy</td>
-                            <td class="">Male</td>
-                            <td class="">2</td>
-                            <td class="">A</td>
-                            <td class="">Jack Sparrow</td>
-                            <td class="">TA-107 Newyork</td>
-                            <td class="">02/05/2001</td>
-                            <td class="">+123 9988568</td>
-                            <td class="">kazifahim93@gmail.com</td>
-                            <td class=" text-xl">...</td>
+                            <td class="pr-6">Mark Willy</td>
+                            <td class="pr-12">Male</td>
+                            <td class="pr-14">2</td>
+                            <td class="pr-14">A</td>
+                            <td class="pr-9">Jack Sparrow</td>
+                            <td class="pr-6">TA-107 Newyork</td>
+                            <td class="pr-10">02/05/2001</td>
+                            <td class="pr-12">+123 9988568</td>
+                            <td class="pr-4">kazifahim93@gmail.com</td>
+                            <td class=" text-lg text-center">...</td>
                           </tr>
-                          <tr class="border-b flex justify-between flex-row gap-4 px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
 
-                            <td class="flex items-center gap-2">
+                          <tr class="border-b flex items-center flex-row px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
+
+                            <td class="flex pr-4 items-center gap-2">
                                 <input type="checkbox">
                                 <h3>#00281</h3>
                             </td>
-                            <td class="">
+                            <td class="pr-7">
                                 <img src="https://i.pravatar.cc/40" alt="Photo" class="rounded-full w-8 h-8">
                             </td>
-                            <td class=" ">Mark Willy</td>
-                            <td class="">Male</td>
-                            <td class="">2</td>
-                            <td class="">A</td>
-                            <td class="">Jack Sparrow</td>
-                            <td class="">TA-107 Newyork</td>
-                            <td class="">02/05/2001</td>
-                            <td class="">+123 9988568</td>
-                            <td class="">kazifahim93@gmail.com</td>
-                            <td class=" text-xl">...</td>
+                            <td class="pr-6">Mark Willy</td>
+                            <td class="pr-12">Male</td>
+                            <td class="pr-14">2</td>
+                            <td class="pr-14">A</td>
+                            <td class="pr-9">Jack Sparrow</td>
+                            <td class="pr-6">TA-107 Newyork</td>
+                            <td class="pr-10">02/05/2001</td>
+                            <td class="pr-12">+123 9988568</td>
+                            <td class="pr-4">kazifahim93@gmail.com</td>
+                            <td class=" text-lg text-center">...</td>
                           </tr>
-                          <tr class="border-b flex justify-between flex-row gap-4 px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
 
-                            <td class="flex items-center gap-2">
+                          <tr class="border-b flex items-center flex-row px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
+
+                            <td class="flex pr-4 items-center gap-2">
                                 <input type="checkbox">
                                 <h3>#00281</h3>
                             </td>
-                            <td class="">
+                            <td class="pr-7">
                                 <img src="https://i.pravatar.cc/40" alt="Photo" class="rounded-full w-8 h-8">
                             </td>
-                            <td class=" ">Mark Willy</td>
-                            <td class="">Male</td>
-                            <td class="">2</td>
-                            <td class="">A</td>
-                            <td class="">Jack Sparrow</td>
-                            <td class="">TA-107 Newyork</td>
-                            <td class="">02/05/2001</td>
-                            <td class="">+123 9988568</td>
-                            <td class="">kazifahim93@gmail.com</td>
-                            <td class=" text-xl">...</td>
-                          </tr><tr class="border-b flex justify-between flex-row gap-4 px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
-
-                            <td class="flex items-center gap-2">
-                                <input type="checkbox">
-                                <h3>#00281</h3>
-                            </td>
-                            <td class="">
-                                <img src="https://i.pravatar.cc/40" alt="Photo" class="rounded-full w-8 h-8">
-                            </td>
-                            <td class=" ">Mark Willy</td>
-                            <td class="">Male</td>
-                            <td class="">2</td>
-                            <td class="">A</td>
-                            <td class="">Jack Sparrow</td>
-                            <td class="">TA-107 Newyork</td>
-                            <td class="">02/05/2001</td>
-                            <td class="">+123 9988568</td>
-                            <td class="">kazifahim93@gmail.com</td>
-                            <td class=" text-xl">...</td>
+                            <td class="pr-6">Mark Willy</td>
+                            <td class="pr-12">Male</td>
+                            <td class="pr-14">2</td>
+                            <td class="pr-14">A</td>
+                            <td class="pr-9">Jack Sparrow</td>
+                            <td class="pr-6">TA-107 Newyork</td>
+                            <td class="pr-10">02/05/2001</td>
+                            <td class="pr-12">+123 9988568</td>
+                            <td class="pr-4">kazifahim93@gmail.com</td>
+                            <td class=" text-lg text-center">...</td>
                           </tr>
-                          <tr class="border-b flex justify-between flex-row gap-4 px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
 
-                            <td class="flex items-center gap-2">
+                          <tr class="border-b flex items-center flex-row px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
+
+                            <td class="flex pr-4 items-center gap-2">
                                 <input type="checkbox">
                                 <h3>#00281</h3>
                             </td>
-                            <td class="">
+                            <td class="pr-7">
                                 <img src="https://i.pravatar.cc/40" alt="Photo" class="rounded-full w-8 h-8">
                             </td>
-                            <td class=" ">Mark Willy</td>
-                            <td class="">Male</td>
-                            <td class="">2</td>
-                            <td class="">A</td>
-                            <td class="">Jack Sparrow</td>
-                            <td class="">TA-107 Newyork</td>
-                            <td class="">02/05/2001</td>
-                            <td class="">+123 9988568</td>
-                            <td class="">kazifahim93@gmail.com</td>
-                            <td class=" text-xl">...</td>
+                            <td class="pr-6">Mark Willy</td>
+                            <td class="pr-12">Male</td>
+                            <td class="pr-14">2</td>
+                            <td class="pr-14">A</td>
+                            <td class="pr-9">Jack Sparrow</td>
+                            <td class="pr-6">TA-107 Newyork</td>
+                            <td class="pr-10">02/05/2001</td>
+                            <td class="pr-12">+123 9988568</td>
+                            <td class="pr-4">kazifahim93@gmail.com</td>
+                            <td class=" text-lg text-center">...</td>
                           </tr>
-                          <tr class="border-b flex justify-between flex-row gap-4 px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
 
-                            <td class="flex items-center gap-2">
+                          <tr class="border-b flex items-center flex-row px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
+
+                            <td class="flex pr-4 items-center gap-2">
                                 <input type="checkbox">
                                 <h3>#00281</h3>
                             </td>
-                            <td class="">
+                            <td class="pr-7">
                                 <img src="https://i.pravatar.cc/40" alt="Photo" class="rounded-full w-8 h-8">
                             </td>
-                            <td class=" ">Mark Willy</td>
-                            <td class="">Male</td>
-                            <td class="">2</td>
-                            <td class="">A</td>
-                            <td class="">Jack Sparrow</td>
-                            <td class="">TA-107 Newyork</td>
-                            <td class="">02/05/2001</td>
-                            <td class="">+123 9988568</td>
-                            <td class="">kazifahim93@gmail.com</td>
-                            <td class=" text-xl">...</td>
+                            <td class="pr-6">Mark Willy</td>
+                            <td class="pr-12">Male</td>
+                            <td class="pr-14">2</td>
+                            <td class="pr-14">A</td>
+                            <td class="pr-9">Jack Sparrow</td>
+                            <td class="pr-6">TA-107 Newyork</td>
+                            <td class="pr-10">02/05/2001</td>
+                            <td class="pr-12">+123 9988568</td>
+                            <td class="pr-4">kazifahim93@gmail.com</td>
+                            <td class=" text-lg text-center">...</td>
                           </tr>
-                          <tr class="border-b flex justify-between flex-row gap-4 px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
 
-                            <td class="flex items-center gap-2">
-                                <input type="checkbox">
-                                <h3>#00281</h3>
-                            </td>
-                            <td class="">
-                                <img src="https://i.pravatar.cc/40" alt="Photo" class="rounded-full w-8 h-8">
-                            </td>
-                            <td class=" ">Mark Willy</td>
-                            <td class="">Male</td>
-                            <td class="">2</td>
-                            <td class="">A</td>
-                            <td class="">Jack Sparrow</td>
-                            <td class="">TA-107 Newyork</td>
-                            <td class="">02/05/2001</td>
-                            <td class="">+123 9988568</td>
-                            <td class="">kazifahim93@gmail.com</td>
-                            <td class=" text-xl">...</td>
-                          </tr>
-                          <tr class="border-b flex justify-between flex-row gap-4 px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
-
-                            <td class="flex items-center gap-2">
-                                <input type="checkbox">
-                                <h3>#00281</h3>
-                            </td>
-                            <td class="">
-                                <img src="https://i.pravatar.cc/40" alt="Photo" class="rounded-full w-8 h-8">
-                            </td>
-                            <td class=" ">Mark Willy</td>
-                            <td class="">Male</td>
-                            <td class="">2</td>
-                            <td class="">A</td>
-                            <td class="">Jack Sparrow</td>
-                            <td class="">TA-107 Newyork</td>
-                            <td class="">02/05/2001</td>
-                            <td class="">+123 9988568</td>
-                            <td class="">kazifahim93@gmail.com</td>
-                            <td class=" text-xl">...</td>
-                          </tr>
-                          <tr class="border-b flex justify-between flex-row gap-4 px-4 py-2 border-[#e1e1e1] hover:bg-[#f1f1f1] transition-colors duration-200">
-
-                            <td class="flex items-center gap-2">
-                                <input type="checkbox">
-                                <h3>#00281</h3>
-                            </td>
-                            <td class="">
-                                <img src="https://i.pravatar.cc/40" alt="Photo" class="rounded-full w-8 h-8">
-                            </td>
-                            <td class=" ">Mark Willy</td>
-                            <td class="">Male</td>
-                            <td class="">2</td>
-                            <td class="">A</td>
-                            <td class="">Jack Sparrow</td>
-                            <td class="">TA-107 Newyork</td>
-                            <td class="">02/05/2001</td>
-                            <td class="">+123 9988568</td>
-                            <td class="">kazifahim93@gmail.com</td>
-                            <td class=" text-xl">...</td>
-                          </tr>
+                          
                         <!-- Repeat <tr>...</tr> for each row -->
                     </tbody>
                 </table>
