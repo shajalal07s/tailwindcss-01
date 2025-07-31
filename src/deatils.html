@@ -8,14 +8,15 @@
    <link rel="stylesheet" href="/src/output.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
       integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
 </head>
 
 <body class="flex flex-col justify-end items-end">
+
    <!-- Student Detalis Section -->
 
-   <section class="container  gap-2 bg-[#f0f1f3] pt-8 pl-6 pr-6 pb-8">
+   <section class="container  gap-2 bg-[#f0f1f3] lg:py:8 lg:px-5 py-4 px-2.5">
 
       <!-- Breadcrumb -->
 
@@ -30,9 +31,10 @@
 
       <!-- Student Details Card -->
 
-      <div class="bg-white p-5  rounded shadow-md">
+      <div class="bg-white lg:p-5 p-3  rounded shadow-md">
 
          <!-- About  -->
+
          <div class="flex items-center justify-between mb-4">
             <h2 class="text-xl font-semibold text-gray-800">About Me</h2>
             <a class="text-4xl mb-5 text-[#bcbcbc]" href="">...</a>
@@ -40,20 +42,20 @@
 
          <!-- Main Card -->
 
-         <div class="w-full main gap-8 flex flex-row md:flex-col md:gap-4 justify-start items-start">
+         <div class="w-full main gap-8 flex lg:flex-row md:flex-col flex-col justify-start items-start">
 
             <!-- Student Image and Details -->
-            <div class="flex w-1/4 items-center gap-4">
-               <img src="/image/student1.jpg" alt="Student Image" class="w-full h-full object-cover">
+            <div class="flex lg:w-1/4 md:full sm:w-full justify-center items-center gap-4">
+               <img src="/image/student1.jpg" alt="Student Image" class="lg:w-full lg:h-full w-10/12 object-cover">
             </div>
 
 
 
             <!-- Student Details -->
 
-            <div class="flex flex-col w-2/4 justify-start items-start gap-4">
+            <div class="flex flex-col lg:w-2/4 w-full justify-start items-start gap-4">
 
-               <div class="w-2/3">
+               <div class="lg:w-2/3 w-full">
                   <h3 class="text-xl font-medium">Jessia Rose</h3>
                   <p class="mt-2.5">Aliquam erat volutpat. Curabiene natis massa sedde lacu
                      stiquen sodale word moun taiery.Aliquam erat volutpaturabiene
@@ -63,7 +65,7 @@
 
                <!-- Name and Detalis -->
 
-               <div class="w-11/12">
+               <div class="lg:w-11/12 w-full">
 
                   <div class="flex flex-row justify-between items-center p-2.5">
                      <div class="w-1/2">
@@ -210,20 +212,20 @@
 
             </div>
 
-            <div class="flex flex-col w-1/5 justify-end items-end gap-4">
+            <div class="flex flex-col w-full lg:w-1/5 lg:justify-end justify-center items-end lg:items-end gap-4">
                <!-- Icon  -->
 
                <div class="icon flex gap-4">
-                  <div class="py-1.5 px-3 bg-[#f0f1f3] rounded text-center">
-                     <i class="far fa-edit  text-sm font-medium text-[#646464] pb-2"></i>
+                  <div class="group  py-1.5 px-3 bg-[#f0f1f3] duration-300 hover:bg-[#fd7e14] rounded text-center">
+                     <i class="far fa-edit  text-sm font-medium text-[#646464]  group-hover:text-white pb-2"></i>
                   </div>
 
-                  <div class="py-1.5 px-3 bg-[#f0f1f3] rounded text-center">
-                     <i class="fas fa-print  text-sm font-medium text-[#646464] pb-2"></i>
+                  <div class="group py-1.5 px-3 bg-[#f0f1f3] rounded duration-300 hover:bg-[#fd7e14] text-center">
+                     <i class="fas fa-print  text-sm font-medium text-[#646464]  group-hover:text-white pb-2"></i>
                   </div>
 
-                  <div class="py-1.5 px-3 bg-[#f0f1f3] rounded text-center">
-                     <i class="fas fa-download  text-sm font-medium text-[#646464] pb-2"></i>
+                  <div class="group py-1.5 px-3 bg-[#f0f1f3] rounded duration-300 hover:bg-[#fd7e14] text-center">
+                     <i class="fas fa-download  text-sm font-medium text-[#646464]  group-hover:text-white pb-2"></i>
                   </div>
                </div>
 
